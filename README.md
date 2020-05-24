@@ -1,5 +1,6 @@
 # Topic: Can the gender of poets be classified based on their poem content/styles?
 Project for our Data Science Study #Team 통소여
+![Topic](/pictures/topic.png)
 
 ## Data
 - Poetry data downloaded from [Kaggle](https://www.kaggle.com/jatindersehdev/poetry-analysis-data)    
@@ -10,13 +11,14 @@ Project for our Data Science Study #Team 통소여
 We implemented _two versions_, one including stopwords and one with stopwords excluded.
 Normally in textmining, stopwords are excluded.
 However, because poems tend to showcase emotions through various words, we decided to look into both versions.
+#### The detailed manners of each method are described carefully in our files: /classification/ (View .ipynb or download our html file)
 
 > 1. Random Forest
 > 2. AdaBoostRegressor
 > 3. KNN
 > 4. Naive Bayes
 > 5. SVC
-#### The detailed manners of each method are described carefully in our files: /classification/ (View .ipynb or download our html file)
+
 
 ## Result Interpretation
 ```
@@ -25,6 +27,9 @@ Considering that we only have two groups, it is a very low value and we conclude
 Also, there was not much of a difference whether or not we included stopwords.
 (The accuracy is saved in  /data/accuracy.csv)
 ```
+#### Scores with and without stopwords
+![scores](/pictures/scores.png)
+
 ### Why?
 ```
 There could be a couple reasons for this problem
@@ -40,3 +45,6 @@ As it could distort our results, it should be approached with caution when it co
 Also we concluded that classifying natural language into two groups is difficult than it seems, becuase language has many unpredictable & untangible factors.
 
 - Future think-abouts: Could it be improved by supervised & unsupervised learning?
+
+#### Wordcloud of our most frequently used words
+![Wordcloud](/pictures/wordcloud.png)
