@@ -1,4 +1,4 @@
-# Topic: Can the gender of poets be classified based on their poem content/styles?
+# Can the gender of poets be classified based on their poem content/styles?
 Project for our Data Science Study #Team 통소여
 ![Topic](/pictures/topic.png)
 
@@ -11,7 +11,7 @@ Project for our Data Science Study #Team 통소여
 We implemented _two versions_, one including stopwords and one with stopwords excluded.
 Normally in textmining, stopwords are excluded.
 However, because poems tend to showcase emotions through various words, we decided to look into both versions.
-#### The detailed manners of each method are described carefully in our files: /classification/ (View .ipynb or download our html file)
+#### The detailed manners of each method are described carefully in our files: /classification/ (View .ipynb or download my html file)
 
 > 1. Random Forest
 > 2. AdaBoostRegressor
